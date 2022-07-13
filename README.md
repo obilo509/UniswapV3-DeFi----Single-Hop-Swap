@@ -1,20 +1,20 @@
-# Sample Hardhat Project
+Uniswap V3 Examples
+npm i
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# Test swap
+npx hardhat test test/swap.test.js
+Links
+Single Hop Swap
 
-Try running some of the following tasks:
+Multi Hop Swap
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Deployed Contract Addresses
 
-git init 
-git add .
-git commit -m "DeFi Project" 
-git branch -M main 
-git remote add origin https://github.com/obilo509/obilo509-UniswapV3-DeFi----Single-Hop-Swap.git
-git push -u origin main
+Uniswap V3 Pool Infos
+
+TODO
+ single hop swap
+ multi hop swap
+ add / remove liquidity
+ flash swap?
+ liquidity mining?
